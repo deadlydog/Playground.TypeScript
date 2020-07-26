@@ -9,7 +9,8 @@
 			"request": "launch",
 			"type": "pwa-chrome",
 			"url": "file:///C:/dev/Git/Playground.Typescript/src/HelloWorld.html",
-			"webRoot": "${workspaceFolder}"
+			"webRoot": "${workspaceFolder}",
+			"preLaunchTask": "tsc: build - tsconfig.json"
 		},
 		{
 			"type": "node",
