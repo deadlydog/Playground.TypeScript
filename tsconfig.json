@@ -4,6 +4,7 @@
 		"module": "commonjs",
 		"outDir": "ts-output",
 		"sourceMap": true,
-		"rootDir": "src"
+		"rootDir": "src",
+		"strict": true
 	}
 }
