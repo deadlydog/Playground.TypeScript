@@ -1,4 +1,5 @@
-import * as AdmZip from 'adm-zip';
+// import * as AdmZip from 'adm-zip';
+var AdmZip = require('adm-zip');
 
 var sourcePath = "C:\\Temp\\Test.zip";
 
