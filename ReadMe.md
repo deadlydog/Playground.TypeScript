@@ -1,4 +1,4 @@
-# Playground.Typescript
+# Playground.TypeScript
 
 Just a place for me to play around with Typescript.
 
