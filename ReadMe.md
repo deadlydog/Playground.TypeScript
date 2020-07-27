@@ -1,8 +1,8 @@
 # Playground.TypeScript
 
-Just a place for me to play around with Typescript.
+Just a place for me to play around with TypeScript.
 
-[VS Code Typescript tutorial](https://code.visualstudio.com/docs/typescript/typescript-tutorial) to get started.
+[VS Code TypeScript tutorial](https://code.visualstudio.com/docs/typescript/typescript-tutorial) to get started.
 
 ## Building and running
 
