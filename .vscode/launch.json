@@ -8,23 +8,24 @@
 			"name": "Client - Build typescript files and and Launch Chrome for client-side debugging",
 			"request": "launch",
 			"type": "pwa-chrome",
-			"url": "file:///C:/dev/Git/Playground.Typescript/src/RunClientSideTypeScript.html",
 			"webRoot": "${workspaceFolder}",
-			"preLaunchTask": "tsc: build - tsconfig.json"
+			"preLaunchTask": "tsc: build - tsconfig.json", // Build files before running.
+			"url": "file:///C:/dev/Git/Playground.Typescript/src/RunClientSideTypeScript.html"	// Webpage to open.
 		},
 		{
-			"type": "node",
-			"request": "launch",
 			"name": "Server - Build typescript files and Launch Node for server-side debugging",
+			"request": "launch",
+			"type": "node",
 			// Files to not step into when debugging.
 			"skipFiles": [
 				"<node_internals>/**"
 			],
-			"program": "${workspaceFolder}/src/Server-HelloWorld.ts",
-			"preLaunchTask": "tsc: build - tsconfig.json",
+			"preLaunchTask": "tsc: build - tsconfig.json",	// Build files before running.
 			"outFiles": [
 				"${workspaceFolder}/ts-output/**/*.js"
-			]
+			],
+			"outputCapture": "std",	// VS Code's Debug Console won't show console logs without this.
+			"program": "${workspaceFolder}/src/Server-HelloWorld.ts"	// Program to run.
 		}
 	]
 }
