@@ -1,8 +1,8 @@
-let message: string = 'Hello World';
-console.log(message);
+let clientMessage: string = 'Hello World from the client';
+console.log(clientMessage);
 
 let element = document.getElementById("HelloWorldId");
 if (element != null)
 {
-	element.innerHTML = message
+	element.innerHTML = clientMessage
 }
