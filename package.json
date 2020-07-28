@@ -1,0 +1,25 @@
+{
+  "name": "Playground.Typescript",
+  "version": "1.0.0",
+  "description": "Just a place for me to play around with TypeScript.",
+  "main": "index.js",
+  "dependencies": {
+    "@types/adm-zip": "^0.4.33",
+    "adm-zip": "^0.4.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadlydog/Playground.TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deadlydog/Playground.TypeScript/issues"
+  },
+  "homepage": "https://github.com/deadlydog/Playground.TypeScript#readme"
+}
