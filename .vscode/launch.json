@@ -19,7 +19,7 @@
 			"skipFiles": [
 				"<node_internals>/**"
 			],
-			"program": "${workspaceFolder}\\src\\HelloWorld.ts",
+			"program": "${workspaceFolder}\\src\\Server-ZipTest.ts",
 			"preLaunchTask": "tsc: build - tsconfig.json",
 			"outFiles": [
 				"${workspaceFolder}/ts-output/**/*.js"
