@@ -5,7 +5,7 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Build and Launch Chrome for client-side debugging",
+			"name": "Client - Build typescript files and and Launch Chrome for client-side debugging",
 			"request": "launch",
 			"type": "pwa-chrome",
 			"url": "file:///C:/dev/Git/Playground.Typescript/src/RunClientSideTypeScript.html",
@@ -15,7 +15,7 @@
 		{
 			"type": "node",
 			"request": "launch",
-			"name": "Build typescript files and Launch Node for server-side debugging",
+			"name": "Server - Build typescript files and Launch Node for server-side debugging",
 			"skipFiles": [
 				"<node_internals>/**"
 			],
