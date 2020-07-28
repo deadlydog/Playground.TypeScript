@@ -15,11 +15,11 @@
 		{
 			"type": "node",
 			"request": "launch",
-			"name": "Build typescript files",
+			"name": "Build typescript files and Launch Node for server-side debugging",
 			"skipFiles": [
 				"<node_internals>/**"
 			],
-			"program": "${workspaceFolder}\\src\\ZipTest.ts",
+			"program": "${workspaceFolder}\\src\\HelloWorld.ts",
 			"preLaunchTask": "tsc: build - tsconfig.json",
 			"outFiles": [
 				"${workspaceFolder}/ts-output/**/*.js"
