@@ -1,5 +1,6 @@
 # Ignore the build output.
 ts-output/
+out/
 
 
 # Created by https://www.gitignore.io/api/powershell,visualstudio,visualstudiocode

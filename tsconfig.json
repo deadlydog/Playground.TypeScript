@@ -1,8 +1,8 @@
 {
 	"compilerOptions": {
-		"target": "es6",
+		"target": "es5",
 		"module": "commonjs",
-		"outDir": "ts-output",
+		"outDir": "out",
 		"sourceMap": true,
 		"rootDir": "src",
 		"strict": true
