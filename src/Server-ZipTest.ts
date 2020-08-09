@@ -1,17 +1,17 @@
-// // import * as AdmZip from 'adm-zip';
+import * as AdmZip from 'adm-zip';
 // var AdmZip = require('adm-zip');
 
-// var sourcePath = "C:\\Temp\\Test.zip";
+var sourcePath = "C:/Temp/Test.zip";
 
-// var sourcePathIsZipFile = false;
-// var sourcePathZipDirectoryPath = sourcePath + "-Extracted";
-// if (sourcePath.endsWith(".zip")) {
-// 	sourcePathIsZipFile = true;
+var sourcePathIsZipFile = false;
+var sourcePathZipDirectoryPath = sourcePath + "-Extracted/";
+if (sourcePath.endsWith(".zip")) {
+	sourcePathIsZipFile = true;
 
-// 	console.log("is a zip file");
-// 	var zip = new AdmZip(sourcePath);
-// 	zip.extractAllTo(sourcePathZipDirectoryPath)
-// }
-// else {
-// 	console.log("is NOT a zip file");
-// }
+	console.log("is a zip file");
+	var zip = new AdmZip(sourcePath);
+	zip.extractAllTo(sourcePathZipDirectoryPath)
+}
+else {
+	console.log("is NOT a zip file");
+}
