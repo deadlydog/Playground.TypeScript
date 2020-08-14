@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",
-		"outDir": "out",
+		"outDir": "ts-output",
 		"sourceMap": true,
 		"rootDir": "src",
 		"strict": true
