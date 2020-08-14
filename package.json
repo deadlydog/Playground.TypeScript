@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "@types/adm-zip": "^0.4.33",
-    "adm-zip": "^0.4.16"
+    "adm-zip": "^0.4.16",
+    "devpun": "^1.5.0"
   },
   "devDependencies": {},
   "scripts": {
