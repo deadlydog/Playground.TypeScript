@@ -26,7 +26,7 @@
 			],
 			"outputCapture": "std",	// VS Code's Debug Console won't show console logs without this.
 			"sourceMaps": true,
-			"program": "${workspaceFolder}/src/Server-HelloWorld.ts"	// Program to run.
+			"program": "${workspaceFolder}/src/Server-ZipTest.ts"	// Program to run.
 		}
 	]
 }
