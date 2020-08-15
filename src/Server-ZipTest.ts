@@ -1,5 +1,6 @@
 import * as AdmZip from 'adm-zip';
 import * as fs from 'fs';
+const rimraf = require("rimraf");
 
 const sourcePath: string = "C:\\Temp\\Temp.zip";
 
@@ -30,4 +31,7 @@ if (sourcePathIsZipFile)
 	const zip = new AdmZip();
 	zip.addLocalFolder(sourcePathZipDirectoryPath);
 	zip.writeZip(sourcePath);
+
+	console.log(`Deleting temp directory '${sourcePathZipDirectoryPath}'.`)
+	rimraf(sourcePathZipDirectoryPath, function () { console.log(`Temp directory '${sourcePathZipDirectoryPath}' has been deleted.`) });
 }
